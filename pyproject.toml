@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "decks-tool"
+version = "0.1.0"
+description = "Tool for creating decks"
+authors = ["Rostyslav Skliar <rosklyar@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.36.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
