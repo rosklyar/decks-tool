@@ -1,0 +1,22 @@
+credentials:
+  usernames:
+    rostyslav:
+      email: rosklyar@gmail.com
+      name: Rostyslav Skliar
+      password: $2b$12$M4NlMy8vMNHoEaymJd85IOsGwkEOMsSD/MrazDtXA2snOd7OYMAB.
+    sashko:
+      email: a.i.yatsenko@gmail.com
+      name: Oleksandr Iatsenko
+      password: $2b$12$XqPZ0ff91yK8Sk25E1KtVOa1c5n2oqtc6S9g68ktAgjw9JOAZ8USC
+    roman:
+      email: giallotypewriter@gmail.com
+      name: Roman Linkov
+      password: $2b$12$MZvk1C7QBjortDlRu17fSua0r51SaYyMX.XlY0nN3g18NgTaPuxnK
+    serhii:
+      email: Sgetun@gmail.com
+      name: Serhii Getun
+      password: $2b$12$C0DkysEWWPSKH0F4pNYP2uDQVk7CYPJr4Lp9LIYxB1uwqj18vAz.e
+cookie:
+  expiry_days: 30
+  key: random_signature_key # Must be string
+  name: random_cookie_name
