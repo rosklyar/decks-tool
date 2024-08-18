@@ -8,7 +8,7 @@ docker build -t decks-tool:latest .
 ``` 
 - Run app
 ```bash
-docker run -p 8501:8501 decks-tool:latest
+docker run -p 8501:8501 -e PORT=8501 decks-tool:latest
 ```
 - Open app in your browser at http://localhost:8501/
 ### Using poetry locally
