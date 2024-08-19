@@ -1,6 +1,7 @@
 FROM python:3.12-slim
 
-ENV PORT 8080
+ENV PORT=8080
+ENV HOME=/root
 
 WORKDIR /app
 
