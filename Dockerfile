@@ -11,4 +11,4 @@ COPY pyproject.toml poetry.lock /app/
 
 RUN poetry install --no-dev
 
-ENTRYPOINT poetry run streamlit run decks_tool.py --server.port=$PORT --server.address=0.0.0.0
+ENTRYPOINT ["sh", "-c", "poetry run streamlit run decks_tool.py --server.port=${PORT} --server.address=0.0.0.0"]
