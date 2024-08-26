@@ -18,11 +18,7 @@ authenticator = stauth.Authenticate(
 authenticator.login()
 
 if st.session_state['authentication_status']:
-    authenticator.logout(location='sidebar', key='main_logout')
-    st.markdown(
-        "<h3 style='color: green;'>Welcome to RIDDLY decks management tool</h3>",
-        unsafe_allow_html=True
-    )
+    st.switch_page("pages/Viewer.py")
 else:
     if st.session_state['authentication_status'] is False:
         st.error('Username/password is incorrect')
