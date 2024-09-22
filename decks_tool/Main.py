@@ -18,7 +18,7 @@ authenticator = stauth.Authenticate(
 authenticator.login()
 
 if st.session_state['authentication_status']:
-    st.switch_page("pages/Viewer.py")
+    st.switch_page("pages/viewer.py")
 else:
     if st.session_state['authentication_status'] is False:
         st.error('Username/password is incorrect')
